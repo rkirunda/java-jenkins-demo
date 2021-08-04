@@ -17,6 +17,7 @@ public class Test {
 			int y = Integer.parseInt(br.readLine());
 			System.out.println("x+y = "+(x+y));
 			System.out.println("x*y = "+(x*y));
+			System.out.println("x%y = "+(x%y));
 		} catch (NumberFormatException | IOException ex) {
 			System.err.println(ex.getMessage());
 		}
